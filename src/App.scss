@@ -1,0 +1,74 @@
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  font: 1rem sans-serif;
+  background-color: rgb(69, 83, 36);
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 50px;
+  padding: 20px;
+  position: absolute;
+  // overflow: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+
+  &:hover {
+    background-color: rgb(134, 149, 231);
+    color: black;
+  }
+
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+
+  p {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+.jokes{
+  align-items: center;
+  justify-content: center;
+}
+  .joke {
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    box-shadow: 0 0 0.2em #ccc;
+
+    .joke-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 1em;
+      gap: 1em;
+    }
+  }
+
+  .form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+  }
+
+  input {
+    padding: 0.2em;
+    border-radius: 0.5em;
+    border: 1px solid #ccc;
+    width: 70%;
+    text-align: center;
+  }
+
+  input:focus {
+    outline: none;
+  }
+}
